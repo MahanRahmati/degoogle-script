@@ -7,4 +7,4 @@ adb shell settings put global captive_portal_fallback_url http://captiveportal.k
 adb shell settings put global captive_portal_other_fallback_urls http://captiveportal.kuketz.de
 
 # NTP
-adb shell settings put global ntp_server asia.pool.ntp.org
+adb shell settings put global ntp_server ntp.org
