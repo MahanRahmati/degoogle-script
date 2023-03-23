@@ -8,3 +8,17 @@ adb shell settings put global captive_portal_other_fallback_urls http://captivep
 
 # NTP
 adb shell settings put global ntp_server ntp.org
+
+# debloat basics
+adb shell pm uninstall --user 0 org.lineageos.audiofx
+adb shell pm uninstall --user 0 org.lineageos.jelly
+adb shell pm uninstall --user 0 org.lineageos.etar
+adb shell pm uninstall --user 0 com.android.camera2
+adb shell pm uninstall --user 0 com.android.gallery3d
+adb shell pm uninstall --user 0 org.omnirom.logcat
+adb shell pm uninstall --user 0 com.android.messaging
+adb shell pm uninstall --user 0 org.lineageos.eleven
+adb shell pm uninstall --user 0 org.lineageos.aperture
+adb shell pm uninstall --user 0 com.android.stk
+adb shell pm uninstall --user 0 com.android.fmradio
+adb shell pm uninstall --user 0 io.chaldeaprjkt.gamespace
